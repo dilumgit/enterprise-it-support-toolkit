@@ -1,0 +1,12 @@
+# Core UI & Dashboard
+streamlit>=1.50.0,<2.0.0
+
+# System & Hardware Telemetry
+psutil>=6.0.0,<8.0.0
+
+# Data Processing & Visualization
+pandas>=2.2.0,<3.0.0
+plotly>=5.24.0,<7.0.0
+
+# Testing
+pytest>=8.0.0,<10.0.0

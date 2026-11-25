@@ -1,0 +1,60 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Testing & tooling caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDE & OS metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Sensitive local databases and generated diagnostic reports
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.db-journal
+data/*.sqlite
+data/*.sqlite3
+reports/*
+!data/.gitkeep
+!reports/.gitkeep
+
+# Environment secrets
+.env
+.env.*
+*.pem
+*.key
