@@ -1,4 +1,4 @@
-﻿# Enterprise IT Support & Network Diagnostics Toolkit
+# Enterprise IT Support & Network Diagnostics Toolkit
 
 A Windows-first, read-only enterprise endpoint diagnostics, network troubleshooting, security posture assessment, and IT service-desk portfolio application built with **Python**, **Streamlit**, **Psutil**, **Windows PowerShell (CIM/WMI)**, **SQLite**, **Pandas**, and **Plotly**.
 
@@ -17,7 +17,7 @@ IT Support and Infrastructure teams in financial services environments operate u
 ## Project Objectives
 
 1. **Non-Destructive Telemetry**: Collect real local hardware, OS, process, service, software, network, and security baseline metrics strictly in read-only mode.
-2. **Honest & Bounded Execution**: Enforce strict subprocess/network timeouts and explicitly report `Unknown` or `Unavailable` when permissions or hardware sensors are restrictedâ€”never fabricating data.
+2. **Honest & Bounded Execution**: Enforce strict subprocess/network timeouts and explicitly report `Unknown` or `Unavailable` when permissions or hardware sensors are restricted—never fabricating data.
 3. **Structured Service Operations**: Provide persistent SQLite IT Help Desk ticketing and IT Asset/License Management without storing sensitive license keys.
 4. **Actionable Triage & Audit Reporting**: Correlate multi-module telemetry into evidence-backed troubleshooting playbooks and exportable, privacy-redactable CSV and self-contained HTML reports.
 
@@ -159,10 +159,9 @@ Additional documentation:
 > Actual sanitized application screenshots are not yet included in this repository. Launch `python -m streamlit run app.py` locally to inspect the dark dashboard and capture screenshots for `docs/screenshots/` before publishing visual previews.
 
 Planned screenshot captures:
-- **Overview Dashboard** â€” Live CPU, RAM, Disk, Uptime, Network, Security, and Service Desk KPIs
-- **Hardware & System Telemetry** â€” Per-core CPU chart, DIMM inventory, storage volumes, processes, services, and Uninstall registry software
-- **Network Diagnostics & Connectivity Check** â€” Adapter table, Wi-Fi telemetry, and user-triggered Ping/DNS/Traceroute/TCP probes
-- **Information Security Posture** â€” Windows Firewall profiles, Defender/AV status, HotFix history, UAC policy, and BitLocker fallback
-- **IT Help Desk & Asset Management** â€” SQLite incident queue, activity history, asset lifecycle, and license seat tracking
-- **Troubleshooting Assistant & Technical Reporting** â€” 15-scenario rule engine findings and CSV/HTML privacy-redacted report exports
-
+- **Overview Dashboard** — Live CPU, RAM, Disk, Uptime, Network, Security, and Service Desk KPIs
+- **Hardware & System Telemetry** — Per-core CPU chart, DIMM inventory, storage volumes, processes, services, and Uninstall registry software
+- **Network Diagnostics & Connectivity Check** — Adapter table, Wi-Fi telemetry, and user-triggered Ping/DNS/Traceroute/TCP probes
+- **Information Security Posture** — Windows Firewall profiles, Defender/AV status, HotFix history, UAC policy, and BitLocker fallback
+- **IT Help Desk & Asset Management** — SQLite incident queue, activity history, asset lifecycle, and license seat tracking
+- **Troubleshooting Assistant & Technical Reporting** — 15-scenario rule engine findings and CSV/HTML privacy-redacted report exports
